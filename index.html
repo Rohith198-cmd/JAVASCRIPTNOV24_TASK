@@ -3,9 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weather Task</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="search">
+            <input type="text" placeholder="Location"><span><button>search</button></span>
+            
+    </div>
+    <main>
+    <div class="section-1">
+        <h2 class="day">friday</h2>
+        <span id="date"></span>
+        <span id="month"></span>
+        <span id="year"></span>
+        <br>
+        <img src="./assessts img/sun.png" width="50px" class="weather-icon">
+        <!-- <p class="city">chennai<p> -->
+    </div>
+    <div class="section-2">
+        <p>name<span  class="city">chennai</span></p>
+        <p>temp<span  class="temp"></span></p>
+        <p>wind speed <span class="wind">15km/hr</span></p>
+        <p>humidity <span class="humidity">50%</span></p>
+    </div>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>
